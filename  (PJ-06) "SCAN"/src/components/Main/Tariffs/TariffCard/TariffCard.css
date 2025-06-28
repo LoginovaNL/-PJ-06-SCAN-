@@ -1,0 +1,296 @@
+.tariff-card {
+    width: 415px;
+    height: 600px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000033;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.last-price-tag {
+    text-decoration: line-through;
+    font-family: 'InterMedium', sans-serif;
+    font-size: 25px;
+    color: #D2D2D2;
+    margin-top: 32px;
+}
+
+.tariff-price-block {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    margin: -35px 0 0 0;
+}
+
+.tariff-colored-block {
+    max-height: 132px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tariff-beginner-orange-active {
+    border: 2px solid #FFB64F;
+}
+
+.tariff-pro-light-blue-active {
+    border: 2px solid #7CE3E1;
+}
+
+.tariff-business-black-active {
+    border: 2px solid #000000;
+}
+
+.tariff-beginner-orange {
+    background-color: #FFB64F;
+}
+
+.tariff-pro-light-blue {
+    background-color: #7CE3E1;
+}
+
+.tariff-business-black {
+    background-color: #000000;
+}
+
+.tariff-name-block {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.tariff-name-block h3 {
+    margin: 0;
+    color: #000000;
+    font-family: 'InterMedium', sans-serif; 
+    font-size: 30px; 
+}
+
+.tariff-name-block p {
+    color: #000000;
+    font-size: 16px;
+    white-space: nowrap;
+    max-width: 90%;
+}
+
+.tarif-icon-block{
+    max-width: 100px;
+    max-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tariff-icon {
+    width: auto;
+    height: auto;
+}
+
+.tariff-card-text-block {
+    align-self: flex-start;
+    padding-left: 30px;
+}
+
+.price-margin-business {
+    margin-bottom: 53px;
+}
+
+.your-tariff-badge {
+    width: 134px;
+    height: 24px;
+    background-color: #3BA5E0;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 240px;
+}
+
+.your-tariff-badge.hidden {
+    visibility: hidden; 
+  }
+
+.tariff-prices {
+    color: #000000;
+    font-family: 'InterMedium', sans-serif;
+    font-size: 30px;
+}
+
+.card-text {
+    color: #000000;
+    font-size: 18px;
+}
+
+.card-text-20px {
+    font-size: 20px;
+    font-family: 'InterMedium', sans-serif;
+    margin-left: -10px;
+}
+
+.installment-text {
+    margin: -20px 0 0 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+.tariff-to-include {
+    margin: 59px 0 0 0;
+    padding: 0;
+}
+.tariff-to-include-lines {
+    display: flex;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    margin-left: -12px;
+}
+
+.green-checkbox {
+    margin-right: 10px;
+    width: 24px;
+    height: auto;
+}
+
+.tariff-button-div {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-tariffs {
+    width: 335px;
+    height: 59px;
+    border-radius: 5px;
+    font-family: 'InterRegular', sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+    background-color: #5970FF;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-tariffs.grey {
+    background-color: #D2D2D2;
+    color: #000000;
+}
+
+.buttontariffs:not(:disabled):hover {
+    cursor: pointer;
+    background-color: #7CE3E1;
+    color: #000000;
+}
+
+@media (max-width: 1360px) {
+    .tariff-card {
+        width: 335px;
+        min-width: 335px;
+        height: 512px;
+        max-height: 512px;
+    }
+
+    .tariff-colored-block {
+        min-height: 135px;
+        max-height: 135px;
+        padding: 15px;
+    }
+
+    .tariff-name-block {
+        margin-top: 60px;
+    }
+
+
+    .tariff-name-block h3 {
+        font-size: 20px; 
+        margin-bottom: -10px;
+    }
+
+    .tariff-name-block p {
+        font-size: 16px;
+    }
+
+    .old-price-begginer {
+        margin-top: 37px;
+    }
+    
+    .price-beginner {
+        margin-top: 35px;
+    }
+
+    .tarif-icon-block{
+        max-width: 80px;
+        max-height: 80px;
+        margin-bottom: 35px;
+        margin-left: -20px;
+        padding-right: 40px;
+    }
+
+    .tariff-card-text-block {
+        margin-bottom: 20px;
+    }
+
+    .tariff-card-text-block {
+        padding-left: 20px;
+        min-height: 70px;
+    }
+
+  
+
+    .card-text {
+        font-size: 16px;
+    }
+    
+    .card-text-20px {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .installment-text {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    
+    .tariff-to-include-lines {
+        display: flex;
+        font-family: 'InterRegular', sans-serif;
+        font-size: 18px;
+        align-items: center;
+        margin-bottom: -30px;
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    
+    .tariff-button-div {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .button-tariffs {
+        width: 286.57px;
+        height: 59px;
+        font-size: 18px;
+    }
+
+    .your-tariff-badge {
+        display: none;
+    }
+   
+}
+
+
